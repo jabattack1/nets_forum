@@ -1,0 +1,52 @@
+<!doctype HTML>
+<HTML Lang = "en">
+<head>
+
+<style type="text/css">
+<!-- 
+A{text-decoration:none} 
+-->
+</style>
+
+	<meta charset="UTF=8">
+	<title>NETS</title>
+</head>
+
+<body background="http://fc07.deviantart.net/fs70/i/2013/160/8/8/brooklyn_nets_nba_wallpaper_fullhd_by_bv92-d68do81.png">
+
+<a href="/mirza_active"><font color="white">BACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/"><font color="white">HOME</a><br><br>
+
+<p1>
+<font color="white">
+{{{title}}}
+{{{body}}}
+likes:{{likes}}&nbsp;&nbsp;dislikes:{{dislikes}}
+<br>
+</p1>
+
+
+<form method="POST" action="/mirza_active/{{id}}/like">
+
+
+<font color="white">
+<button type="boolean" name="user_like" value="true">LIKE</button>&nbsp;&nbsp;
+<button type="boolean" name="user_dislike" value="true">DISLIKE</button><br><br><br>
+
+</form>
+
+
+<form method="GET" action="/mirza_active/{{id}}/comment">
+
+<button>COMMENT</button>
+
+<br><br><br>
+{{#data}}
+<li>
+<font color="white">
+{{comment_date}}&nbsp;&nbsp;{{username}}<br>
+<ul>{{body}}</ul>
+</li>
+{{/data}}
+</form>
+</body>
+</HTML>
