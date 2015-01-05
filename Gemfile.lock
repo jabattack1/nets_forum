@@ -1,0 +1,49 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.0)
+      activesupport (= 4.2.0)
+      builder (~> 3.1)
+    activerecord (4.2.0)
+      activemodel (= 4.2.0)
+      activesupport (= 4.2.0)
+      arel (~> 6.0)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.0)
+    builder (3.2.2)
+    coderay (1.1.0)
+    i18n (0.7.0)
+    json (1.8.1)
+    jwt (1.0.0)
+    method_source (0.8.2)
+    minitest (5.5.0)
+    multi_json (1.10.1)
+    mustache (0.99.8)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    redcarpet (3.2.2)
+    slop (3.6.0)
+    thread_safe (0.3.4)
+    twilio-ruby (3.14.2)
+      builder (>= 2.1.2)
+      jwt (~> 1.0.0)
+      multi_json (>= 1.3.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  mustache
+  pry
+  redcarpet
+  twilio-ruby

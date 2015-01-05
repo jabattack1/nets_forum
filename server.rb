@@ -48,6 +48,12 @@ get '/mason' do
 	html = File.read('./views/mason.html')
 end
 
+# get '/:player' do
+# 	playa = Player.find_by({name: params[:player]})
+# 	template = File.read('./vies/player_template.html')
+# 	Mustache.render(template, {player: playa})
+# end
+
 get '/aa' do
 	html = File.read('./views/aa.html')
 end
